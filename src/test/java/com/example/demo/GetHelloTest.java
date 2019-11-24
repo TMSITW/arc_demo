@@ -12,7 +12,7 @@ public class GetHelloTest {
 
     @Test
     void getHelloTest() {
-        assertTrue("I`am not greeting you!", controller.getHello().equals("Haaeallo world!"));
+        assertTrue("I`am not greeting you!", controller.getHello().equals("Hello world!"));
     }
 
 }
